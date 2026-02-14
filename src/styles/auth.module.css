@@ -1,0 +1,42 @@
+.authForm {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+.authForm input,
+button {
+  font-size: 20px;
+  width: 350px;
+  padding: 5px;
+  filter: drop-shadow(2px 4px 6px rgba(0, 0, 0, 0.3));
+  border: none;
+  border-radius: 5px;
+}
+
+.authBox {
+  margin: 0 auto;
+  min-height: 65vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.authForm button {
+  cursor: pointer;
+  background-color: rgb(255, 231, 235);
+}
+
+.authIcon {
+  font-size: 100px;
+  color: rgb(255, 231, 235);
+  filter: drop-shadow(2px 4px 6px rgba(0, 0, 0, 0.3));
+}
+.buttonGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}

@@ -1,0 +1,41 @@
+.nav {
+  display: flex;
+  gap: 20px;
+  padding: 10px;
+}
+.header {
+  background-color: rgb(255, 231, 235);
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav__links {
+  text-decoration-line: none;
+  font-size: 25px;
+  display: flex;
+  gap: 3px;
+  color: rgb(0, 0, 0);
+}
+.logo__content {
+  display: flex;
+}
+.logo {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin: 5px;
+}
+.text__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.text__shopName {
+  font-weight: bold;
+}
+.text__bottom {
+  color: gray;
+}

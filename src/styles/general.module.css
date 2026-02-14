@@ -1,0 +1,47 @@
+.mainContent {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin: 0 auto;
+}
+.messageBox {
+  display: flex;
+  min-height: 60vh;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.emptyMessage {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.emptyMessage p {
+  color: gray;
+}
+
+.orderButton {
+  cursor: pointer;
+  background-color: rgb(255, 231, 235);
+}
+
+.orderContent {
+  position: sticky;
+  top: 99vh;
+  display: flex;
+  justify-content: center;
+  transition:
+    transform 0.3s ease,
+    filter 0.3s ease;
+}
+
+.orderContent:hover {
+  transform: scale(1.05);
+  filter: drop-shadow(4px 8px 12px rgba(0, 0, 0, 0.4));
+  z-index: 10;
+}
+
+.orderButton:disabled {
+  cursor: not-allowed;
+}
