@@ -1,0 +1,90 @@
+.catalog__card {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  justify-content: space-around;
+  max-width: 190px;
+  padding: 15px;
+  background-color: white;
+  border-radius: 5%;
+  position: relative;
+  filter: drop-shadow(2px 4px 6px rgba(0, 0, 0, 0.3));
+  transition:
+    transform 0.3s ease,
+    filter 0.3s ease;
+  cursor: pointer;
+}
+.catalog__card:hover {
+  transform: scale(1.05);
+  filter: drop-shadow(4px 8px 12px rgba(0, 0, 0, 0.4));
+  z-index: 10;
+}
+.productContent {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.catalog__img {
+  border-radius: 5%;
+}
+.addToWish__notActive,
+.addToWish__active {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: solid gray 1px;
+  cursor: pointer;
+  width: 30px;
+  height: 30px;
+  top: 12px;
+  left: 12px;
+  z-index: 10;
+}
+
+.addToWish__notActive {
+  background-color: white;
+}
+
+.addToWish__active {
+  background-color: pink;
+}
+
+.productContent {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.productName,
+.price {
+  font-weight: bold;
+}
+.priceContent {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+.text {
+  color: gray;
+}
+.productFeature {
+  display: flex;
+  justify-content: space-between;
+}
+.addToCard__notActive,
+.addToCard__Active {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  border: solid gray 1px;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+.addToCard__notActive {
+  color: red;
+}
+.addToCard__Active {
+  color: rgb(179, 255, 179);
+}
